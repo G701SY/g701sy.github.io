@@ -1,0 +1,143 @@
+body {
+  margin:0;
+  padding:0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-size:40px;
+  font-family: 'Bitter', serif;
+  font-weight:bold;
+  margin: 40px 0 30px 0;
+}
+h2 {
+  font-family: 'Bitter', serif;
+  font-size:20px;
+  margin: 20px 0 0 0;
+}
+h3 {
+  font-family: 'Open Sans', sans-serif;
+}
+p {
+  font-size: 20px;
+  line-height:30px;
+}
+a {
+  color:#c0392b;
+}
+a:hover {
+  color: #f96e5e;
+}
+a img {
+  border:0;
+}
+a.button {
+  display:inline-block;
+  color:#FFF;
+  background-color:#c0392b;
+  text-decoration:none;
+  padding:10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  margin-bottom:10px;
+  -webkit-transition: background 0.2s ease-out;
+  -moz-transition: background 0.2s ease-out;
+  -ms-transition: background 0.2s ease-out;
+  -o-transition: background 0.2s ease-out;
+  transition: background 0.2s ease-out;
+}
+a.button:hover {
+  background-color:#f96e5e;
+}
+a.button.small {
+  background-color:#7f8c8d;
+  padding:8px;
+  font-size:0.8em;
+}
+a.button.small:hover {
+  background-color:#95a5a6;
+}
+.section {
+  margin:0;
+  padding:40px;
+  background-color:#ecf0f1;
+}
+.section.odd {
+  background-color:#dbe0e0;
+}
+
+.half {
+  width:49%;
+  display:inline-block;
+  vertical-align:middle;
+}
+.padding {
+  20px;
+}
+.half.left .padding {
+  padding:0 20px 20px 0;
+}
+.half.right .padding {
+  padding:0 0 20px 20px;
+}
+.half img {
+  max-width:100%;
+  width: auto !important;
+  height:auto !important;
+}
+.space {
+  height:40px;
+}
+
+/* CSS browser */
+.browser {
+  background-color:#bdc3c7;
+  padding:5px 0;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  text-align:right;
+}
+.browser .winbutton {
+  display:inline-block;
+  background-color:#dbe0e0;
+  width:12px;
+  height:12px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  margin-right:5px;
+}
+.browser .navbar {
+  text-align:left;
+  background-color: #ecf0f1;
+  color: #bdc3c7;
+  margin:5px;
+  padding: 5px 0px 5px 5px;
+  font-size:12px;
+  line-height:14px;
+  border-radius:5px;
+  overflow:hidden;
+  -webkit-border-radius: 5px;
+}
+
+/* section-specific styles */
+
+/* 红色开头 */
+#header {
+  background-color:#c0392b;
+  background-image: url(https://cdn.shopify.com/s/files/1/1607/6973/articles/Herbal-dynamics-beauty-goodnutrition-skin_1400x.progressive.jpg?v=1600640196);
+  background-repeat:repeat-x;
+  background-position:bottom center;
+  color:#FFF;
+  padding-bottom:1px;
+}
+#header h1, #header h2 {
+  text-align:center;
+}
+#header h2 {
+  color: #a1dab4;
+  margin: 20px 0 20px 0;
+}
+#header h1 {
+  color: #fffdfd;
+  margin: 20px 0 20px 0;
+}
