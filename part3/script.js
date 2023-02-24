@@ -67,3 +67,10 @@ const geocoder = new MapboxGeocoder({
 });
 
 map.addControl(geocoder, "top-left");
+
+//添加比例尺
+const scale = new mapboxgl.ScaleControl({
+  maxWidth: 100, //size of the scale bar
+  unit: "metric"
+});
+map.addControl(scale);
