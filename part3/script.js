@@ -66,7 +66,7 @@ const geocoder = new MapboxGeocoder({
   } // Coordinates of Glasgow center
 });
 
-map.addControl(geocoder, "top-left");
+map.addControl(geocoder, "top-right");
 
 //添加比例尺
 const scale = new mapboxgl.ScaleControl({
